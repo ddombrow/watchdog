@@ -1,0 +1,33 @@
+#filterTools {
+	width: 875px;
+	height: 30px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	background-color: #FFFFFF;
+	border: solid #AAAAAA 3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 6px 10px 10px 10px;
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+}
+
+#filterTools input, .filterlabel {   
+    vertical-align: middle;
+    display:inline-block;
+    padding-top: 4px;
+    line-height: 14px;
+}
+
+#filterTools select {
+	vertical-align: middle;
+    display:inline-block;
+    line-height: 16px;
+    padding:3px;
+}
+
+button#btnFlag .ui-button-text {
+    padding: 13px;
+}
